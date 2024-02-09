@@ -1,0 +1,75 @@
+#box {
+    border: 2px solid black;
+    background-color: rgb(133, 11, 115);
+    border-radius: 15%;
+    text-align: center; /* Center the content horizontally */
+    margin: 20px auto; /* Set margin to center horizontally */
+}
+
+body {
+    background-color: rgb(15, 45, 110);
+    display:flex;
+    flex-direction: column; /* Change to column layout to stack elements vertically */
+    justify-content: flex-start; /* Align elements to the start (top) of the container */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  #countdown {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+  }
+  
+  #msg {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+  }
+
+  #image{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    align-self: center;
+  }
+  #question{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #yesBtn{
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }#noBtn{
+    background-color: lightcoral;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+/*Heart code*/
+  .hearts {
+    position: absolute;
+  }
+
+  .heart {
+    position: absolute;
+    animation: float 5s infinite linear;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
